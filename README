@@ -7,6 +7,7 @@ Linkerfile generated using STM32CubeMX set to Makefile mode was broken, correct 
 This does nothing but initialize the UART peripheral at this time.
 
 How to use:
+- Copy in .vscode folder
 - Update last two defines in c_cpp_properties.json to match whatever is in STM32CubeMX generated Makefile (device dependant)
 - Update executable file name (.elf) in launch.json
 - Set correct device in launch.json
@@ -26,4 +27,4 @@ Requirements:
 Notes:
 - I don't think it is running the "make all -j4" command automatically. Might need to make a tasks.json, ew
 - See if I can use a variable for the UART_TEST.elf in launch.json so I don't have to ever update it
-- I install all of my toolchain in c:/Dev Tools/ - this is convenient
+- I install all of my toolchain in C:/Dev Tools/ - this is convenient
