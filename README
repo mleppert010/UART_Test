@@ -14,6 +14,16 @@ How to use:
 - Select correct OpenOCD scripts in launch.json
 - Make sure toolchain paths are set correctly in settings.json
 
-To Do:
+Requirements:
+- STM32CubeMX
+- C/C++ Extension Pack (VSCode)
+- Cortex-Debug (VSCode)
+- Makefile Tools (VSCode)
+- Make
+- ARM-GCC-NONE-EABI
+- OpenOCD
+
+Notes:
 - I don't think it is running the "make all -j4" command automatically. Might need to make a tasks.json, ew
 - See if I can use a variable for the UART_TEST.elf in launch.json so I don't have to ever update it
+- I install all of my toolchain in c:/Dev Tools/ - this is convenient
